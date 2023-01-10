@@ -2,5 +2,11 @@
   "item.tutorialmod.black_opal": "Black Opal",
   "item.tutorialmod.raw_black_opal": "Raw Black Opal",
 
+  "block.tutorialmod.black_opal_block": "Block of Black Opal",
+  "block.tutorialmod.black_opal_ore": "Black Opal Ore",
+  "block.tutorialmod.deepslate_black_opal_ore": "Deepslate Black Opal Ore",
+  "block.tutorialmod.endstone_black_opal_ore": "Endstone Black Opal Ore",
+  "block.tutorialmod.netherrack_black_opal_ore": "Netherrack Black Opal Ore",
+
   "creativemodetab.tutorial_tab": "Tutorial Tab"
 }
