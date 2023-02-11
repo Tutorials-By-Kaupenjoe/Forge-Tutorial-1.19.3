@@ -1,0 +1,34 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_raw_black_opal": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "tutorialmod:raw_black_opal"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "tutorialmod:black_opal_from_smelting_raw_black_opal"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_raw_black_opal",
+      "has_the_recipe"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "tutorialmod:black_opal_from_smelting_raw_black_opal"
+    ]
+  }
+}
