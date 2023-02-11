@@ -8,5 +8,13 @@
   "block.tutorialmod.endstone_black_opal_ore": "Endstone Black Opal Ore",
   "block.tutorialmod.netherrack_black_opal_ore": "Netherrack Black Opal Ore",
 
+  "block.tutorialmod.ebony_log": "Ebony Log",
+  "block.tutorialmod.ebony_planks": "Ebony Planks",
+  "block.tutorialmod.ebony_wood": "Ebony Wood",
+  "block.tutorialmod.stripped_ebony_log": "Stripped Ebony Log",
+  "block.tutorialmod.stripped_ebony_wood": "Stripped Ebony Wood",
+  "block.tutorialmod.ebony_leaves": "Ebony Leaves",
+  "block.tutorialmod.ebony_sapling": "Ebony Sapling",
+
   "creativemodetab.tutorial_tab": "Tutorial Tab"
 }
