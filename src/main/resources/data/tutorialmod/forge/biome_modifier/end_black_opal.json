@@ -1,0 +1,6 @@
+{
+  "type": "forge:add_features",
+  "biomes": "#is_end",
+  "features": "tutorialmod:end_black_opal_placed",
+  "step": "underground_ores"
+}

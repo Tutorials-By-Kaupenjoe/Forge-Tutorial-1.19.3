@@ -1,3 +1,9 @@
-// 1.19.3	2023-02-11T18:57:36.2984934	Registries
+// 1.19.3	2023-02-18T10:46:25.0480154	Registries
+9a97af62aae1b5ea5bee366b7f997e5fc2d2efb8 data/tutorialmod/worldgen/configured_feature/black_opal_ore.json
 074636ca486447d89b689fcf3ac1941be159562a data/tutorialmod/worldgen/configured_feature/ebony.json
+3274fee16155a78e0de187355135a0af458fa26e data/tutorialmod/worldgen/configured_feature/end_black_opal_ore.json
+c87addb4e7295406727186ae95c80ab20c49bf9d data/tutorialmod/worldgen/configured_feature/nether_black_opal_ore.json
+152587515358b91b00213e29b4f314974a004613 data/tutorialmod/worldgen/placed_feature/black_opal_placed.json
 b8667c71890b9df11c03b504a47bafd00b6d3432 data/tutorialmod/worldgen/placed_feature/ebony_placed.json
+0c76c1399d3c19c40df4cfdf04a6a8309aa2e5aa data/tutorialmod/worldgen/placed_feature/end_black_opal_placed.json
+f79153bd87470064eca9044021a063503baebcb9 data/tutorialmod/worldgen/placed_feature/nether_black_opal_placed.json
