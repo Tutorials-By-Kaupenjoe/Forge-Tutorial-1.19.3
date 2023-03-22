@@ -13,5 +13,6 @@
   ],
   "result": {
     "item": "tutorialmod:black_opal_block"
-  }
+  },
+  "show_notification": true
 }
