@@ -2,6 +2,7 @@ package net.kaupenjoe.tutorialmod.item;
 
 import net.kaupenjoe.tutorialmod.TutorialMod;
 import net.kaupenjoe.tutorialmod.entity.ModEntities;
+import net.kaupenjoe.tutorialmod.item.custom.AnimatedItem;
 import net.minecraft.world.item.Item;
 import net.minecraftforge.common.ForgeSpawnEggItem;
 import net.minecraftforge.eventbus.api.IEventBus;
@@ -21,6 +22,9 @@ public class ModItems {
     public static final RegistryObject<Item> TIGER_SPAWN_EGG = ITEMS.register("tiger_spawn_egg",
             () -> new ForgeSpawnEggItem(ModEntities.TIGER, 0xD57E36, 0x1D0D00,
                     new Item.Properties()));
+
+    public static final RegistryObject<Item> ANIMATED_ITEM = ITEMS.register("animated_item",
+            () -> new AnimatedItem(new Item.Properties()));
 
 
     public static void register(IEventBus eventBus) {
