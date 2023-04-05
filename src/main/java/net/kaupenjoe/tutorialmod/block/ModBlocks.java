@@ -1,6 +1,7 @@
 package net.kaupenjoe.tutorialmod.block;
 
 import net.kaupenjoe.tutorialmod.TutorialMod;
+import net.kaupenjoe.tutorialmod.block.custom.AnimatedBlock;
 import net.kaupenjoe.tutorialmod.block.custom.ModFlammableRotatedPillarBlock;
 import net.kaupenjoe.tutorialmod.item.ModItems;
 import net.kaupenjoe.tutorialmod.worldgen.tree.EbonyTreeGrower;
@@ -95,6 +96,9 @@ public class ModBlocks {
 
     public static final RegistryObject<Block> EBONY_SAPLING = registerBlock("ebony_sapling",
             () -> new SaplingBlock(new EbonyTreeGrower(), BlockBehaviour.Properties.copy(Blocks.OAK_SAPLING)));
+
+    public static final RegistryObject<Block> ANIMATED_BLOCK = BLOCKS.register("animated_block",
+            () -> new AnimatedBlock(BlockBehaviour.Properties.of(Material.STONE).noOcclusion()));
 
 
 

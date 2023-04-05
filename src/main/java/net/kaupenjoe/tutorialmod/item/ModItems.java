@@ -1,7 +1,9 @@
 package net.kaupenjoe.tutorialmod.item;
 
 import net.kaupenjoe.tutorialmod.TutorialMod;
+import net.kaupenjoe.tutorialmod.block.ModBlocks;
 import net.kaupenjoe.tutorialmod.entity.ModEntities;
+import net.kaupenjoe.tutorialmod.item.custom.AnimatedBlockItem;
 import net.kaupenjoe.tutorialmod.item.custom.AnimatedItem;
 import net.minecraft.world.item.Item;
 import net.minecraftforge.common.ForgeSpawnEggItem;
@@ -25,6 +27,8 @@ public class ModItems {
 
     public static final RegistryObject<Item> ANIMATED_ITEM = ITEMS.register("animated_item",
             () -> new AnimatedItem(new Item.Properties()));
+    public static final RegistryObject<Item> ANIMATED_BLOCK_ITEM = ITEMS.register("animated_block",
+            () -> new AnimatedBlockItem(ModBlocks.ANIMATED_BLOCK.get(), new Item.Properties()));
 
 
     public static void register(IEventBus eventBus) {

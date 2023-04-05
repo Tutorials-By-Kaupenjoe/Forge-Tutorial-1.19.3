@@ -2,10 +2,14 @@ package net.kaupenjoe.tutorialmod;
 
 import com.mojang.logging.LogUtils;
 import net.kaupenjoe.tutorialmod.block.ModBlocks;
+import net.kaupenjoe.tutorialmod.block.entity.ModBlockEntities;
+import net.kaupenjoe.tutorialmod.block.entity.client.AnimatedBlockRenderer;
 import net.kaupenjoe.tutorialmod.entity.ModEntities;
 import net.kaupenjoe.tutorialmod.entity.client.TigerRenderer;
 import net.kaupenjoe.tutorialmod.item.ModCreativeModeTabs;
 import net.kaupenjoe.tutorialmod.item.ModItems;
+import net.minecraft.client.renderer.blockentity.BlockEntityRendererProvider;
+import net.minecraft.client.renderer.blockentity.BlockEntityRenderers;
 import net.minecraft.client.renderer.entity.EntityRenderers;
 import net.minecraft.world.item.CreativeModeTabs;
 import net.minecraftforge.api.distmarker.Dist;
@@ -18,6 +22,7 @@ import net.minecraftforge.fml.event.lifecycle.FMLClientSetupEvent;
 import net.minecraftforge.fml.event.lifecycle.FMLCommonSetupEvent;
 import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
 import org.slf4j.Logger;
+import software.bernie.geckolib.GeckoLib;
 
 // The value here should match an entry in the META-INF/mods.toml file
 @Mod(TutorialMod.MOD_ID)
@@ -33,6 +38,9 @@ public class TutorialMod {
         ModBlocks.register(modEventBus);
 
         ModEntities.register(modEventBus);
+        ModBlockEntities.register(modEventBus);
+
+        GeckoLib.initialize();
 
         modEventBus.addListener(this::commonSetup);
         MinecraftForge.EVENT_BUS.register(this);
@@ -73,6 +81,7 @@ public class TutorialMod {
             event.accept(ModItems.BLACK_OPAL);
             event.accept(ModItems.RAW_BLACK_OPAL);
             event.accept(ModItems.ANIMATED_ITEM);
+            event.accept(ModItems.ANIMATED_BLOCK_ITEM);
 
             event.accept(ModBlocks.BLACK_OPAL_BLOCK);
             event.accept(ModBlocks.NETHERRACK_BLACK_OPAL_ORE);
@@ -98,6 +107,7 @@ public class TutorialMod {
         @SubscribeEvent
         public static void onClientSetup(FMLClientSetupEvent event) {
             EntityRenderers.register(ModEntities.TIGER.get(), TigerRenderer::new);
+            BlockEntityRenderers.register(ModBlockEntities.ANIMATED_BLOCK_ENTITY.get(), AnimatedBlockRenderer::new);
         }
     }
 }
