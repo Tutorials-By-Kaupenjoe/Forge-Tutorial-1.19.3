@@ -98,6 +98,11 @@ public class TutorialMod {
             event.accept(ModBlocks.EBONY_SAPLING);
 
             event.accept(ModItems.TIGER_SPAWN_EGG);
+
+            event.accept(ModItems.AMETHYST_HELMET);
+            event.accept(ModItems.AMETHYST_CHESTPLATE);
+            event.accept(ModItems.AMETHYST_LEGGINGS);
+            event.accept(ModItems.AMETHYST_BOOTS);
         }
     }
 

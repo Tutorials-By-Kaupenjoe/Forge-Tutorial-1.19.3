@@ -23,6 +23,11 @@ public class ModItemModelProvider extends ItemModelProvider {
         simpleItem(ModItems.RAW_BLACK_OPAL);
         saplingItem(ModBlocks.EBONY_SAPLING);
 
+        simpleItem(ModItems.AMETHYST_HELMET);
+        simpleItem(ModItems.AMETHYST_CHESTPLATE);
+        simpleItem(ModItems.AMETHYST_LEGGINGS);
+        simpleItem(ModItems.AMETHYST_BOOTS);
+
         withExistingParent(ModItems.TIGER_SPAWN_EGG.getId().getPath(), mcLoc("item/template_spawn_egg"));
     }
 

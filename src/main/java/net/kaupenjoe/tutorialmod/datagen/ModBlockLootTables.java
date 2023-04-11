@@ -33,6 +33,7 @@ public class ModBlockLootTables extends BlockLootSubProvider {
         this.dropSelf(ModBlocks.STRIPPED_EBONY_WOOD.get());
         this.dropSelf(ModBlocks.STRIPPED_EBONY_LOG.get());
         this.dropSelf(ModBlocks.EBONY_SAPLING.get());
+        this.dropSelf(ModBlocks.ANIMATED_BLOCK.get());
 
         this.add(ModBlocks.EBONY_LEAVES.get(), (block) ->
                 createLeavesDrops(block, ModBlocks.EBONY_LEAVES.get(), NORMAL_LEAVES_SAPLING_CHANCES));
