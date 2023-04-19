@@ -20,7 +20,7 @@ Before starting, make sure you have the following:
 2. Install the JDK as you would any other program. During installation, make sure to set the Java home variable to make it easier to find the Java installation folder later.
 
 
-3. If you're new to Java, consider checking out the Java Introduction for Minecraft Modding [here](https://www.youtube.com/watch?v=oBwPZRk6-SE&list=PLKGarocXCE1FeXvEogpjz4SvHxF_FJRO6&ab_channel=ModdingbyKaupenjoe) before proceeding. This is a playlist of video tutorials that cover the basics of Java programming and provide a foundation for modding Minecraft.
+3. If you're new to Java, consider checking out the Java Introduction for Minecraft Modding <a href="https://www.youtube.com/watch?v=oBwPZRk6-SE&list=PLKGarocXCE1FeXvEogpjz4SvHxF_FJRO6&ab_channel=ModdingbyKaupenjoe" target="_blank">here</a> before proceeding. This is a playlist of video tutorials that cover the basics of Java programming and provide a foundation for modding Minecraft.
 
 
 4. Download and install the IntelliJ IDEA Community Edition. This is a free integrated development environment (IDE) for programming in Java.
@@ -42,12 +42,27 @@ Before starting, make sure you have the following:
 
 <br>
 
+<h2 align="center">
+Socials!
+</h2>
+<p align="center">
+  <a href="https://www.youtube.com/@ModdingByKaupenjoe" target="_blank">
+    <img src="https://i.imgur.com/t1qKAPd.png" alt="Youtube" width="150"/> 
+  </a>
+  <a href="https://www.twitch.tv/kaupenjoe" target="_blank">
+    <img src="https://i.imgur.com/RbFJv96.png" alt="Twitch" width="150"/>
+  </a>
+  <a href="https://twitter.com/Kaupenjoe" target="_blank">
+    <img src="https://i.imgur.com/RWoNo0A.png" alt="Twitter" width="150"/>
+  </a>
+</p>
 
-
-<h3 align="center">
+<br>
+<br>
+<h4 align="center">
 Are you stuck? Need some more help? join Kaupenjoe's Discord server today!
-</h3>
-<a href="https://url.kaupenjoe.net/discord">
+</h4>
+<a href="https://url.kaupenjoe.net/discord" target="_blank">
     <p align="center">
         <img src="https://i.imgur.com/F2vRgE1.png" alt="Logo" width="150"/> 
     </p>
