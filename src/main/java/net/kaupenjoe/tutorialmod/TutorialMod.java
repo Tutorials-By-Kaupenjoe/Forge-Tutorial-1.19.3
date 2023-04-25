@@ -8,6 +8,7 @@ import net.kaupenjoe.tutorialmod.entity.ModEntities;
 import net.kaupenjoe.tutorialmod.entity.client.TigerRenderer;
 import net.kaupenjoe.tutorialmod.item.ModCreativeModeTabs;
 import net.kaupenjoe.tutorialmod.item.ModItems;
+import net.kaupenjoe.tutorialmod.sound.ModSounds;
 import net.minecraft.client.renderer.blockentity.BlockEntityRendererProvider;
 import net.minecraft.client.renderer.blockentity.BlockEntityRenderers;
 import net.minecraft.client.renderer.entity.EntityRenderers;
@@ -39,6 +40,8 @@ public class TutorialMod {
 
         ModEntities.register(modEventBus);
         ModBlockEntities.register(modEventBus);
+
+        ModSounds.register(modEventBus);
 
         GeckoLib.initialize();
 
