@@ -6,8 +6,10 @@ import net.kaupenjoe.tutorialmod.entity.ModEntities;
 import net.kaupenjoe.tutorialmod.item.custom.AmethystArmorItem;
 import net.kaupenjoe.tutorialmod.item.custom.AnimatedBlockItem;
 import net.kaupenjoe.tutorialmod.item.custom.AnimatedItem;
+import net.kaupenjoe.tutorialmod.sound.ModSounds;
 import net.minecraft.world.item.ArmorItem;
 import net.minecraft.world.item.Item;
+import net.minecraft.world.item.RecordItem;
 import net.minecraftforge.common.ForgeSpawnEggItem;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.registries.DeferredRegister;
@@ -40,6 +42,9 @@ public class ModItems {
             () -> new AmethystArmorItem(ModArmorMaterials.AMETHYST, ArmorItem.Type.LEGGINGS, new Item.Properties()));
     public static final RegistryObject<Item> AMETHYST_BOOTS = ITEMS.register("amethyst_boots",
             () -> new AmethystArmorItem(ModArmorMaterials.AMETHYST, ArmorItem.Type.BOOTS, new Item.Properties()));
+
+    public static final RegistryObject<Item> MUSIC_BOX_MUSIC_DISC = ITEMS.register("music_box_music_disc",
+            () -> new RecordItem(8, ModSounds.MUSIC_BOX, new Item.Properties().stacksTo(1), 320));
 
 
     public static void register(IEventBus eventBus) {

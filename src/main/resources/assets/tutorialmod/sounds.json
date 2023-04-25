@@ -28,5 +28,13 @@
     "sounds": [
       "tutorialmod:cool_sound"
     ]
+  },
+  "music_box": {
+    "sounds": [
+      {
+        "name": "tutorialmod:music_box",
+        "stream": true
+      }
+    ]
   }
 }

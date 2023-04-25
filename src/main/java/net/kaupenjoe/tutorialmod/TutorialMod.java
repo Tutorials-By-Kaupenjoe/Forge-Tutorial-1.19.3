@@ -106,6 +106,8 @@ public class TutorialMod {
             event.accept(ModItems.AMETHYST_CHESTPLATE);
             event.accept(ModItems.AMETHYST_LEGGINGS);
             event.accept(ModItems.AMETHYST_BOOTS);
+
+            event.accept(ModItems.MUSIC_BOX_MUSIC_DISC);
         }
     }
 

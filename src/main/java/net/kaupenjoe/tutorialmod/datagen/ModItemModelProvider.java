@@ -28,6 +28,8 @@ public class ModItemModelProvider extends ItemModelProvider {
         simpleItem(ModItems.AMETHYST_LEGGINGS);
         simpleItem(ModItems.AMETHYST_BOOTS);
 
+        simpleItem(ModItems.MUSIC_BOX_MUSIC_DISC);
+
         withExistingParent(ModItems.TIGER_SPAWN_EGG.getId().getPath(), mcLoc("item/template_spawn_egg"));
     }
 
